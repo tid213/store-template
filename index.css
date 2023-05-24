@@ -1,0 +1,87 @@
+/* Nav bar styles */
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 4vh;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    margin: 4px;
+}
+.nav-bar img{
+    margin: 4px;
+}
+
+/* Landing page intro styles */
+
+.main-page-intro{
+    margin: 0;
+    padding: 0;
+    display: block;
+   background-image: url('./images/v-abstract.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   width: 100vw;
+   height: 30vh;
+   color: white;
+}
+
+.main-page-intro h1{
+    font-size: 8rem;
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+.main-page-intro h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 10rem;
+    margin-left: 40vw;
+    margin-top: 0;
+}
+.new-item-button{
+    width: 15rem;
+    height: 5rem;
+    margin-left: auto;
+    margin-right: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background-color: white;
+    color: black;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+/* Landing page Category styles */
+.category-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+}
+.category-div{
+    width: 10rem;
+    height: 10rem;
+    border: 3px solid black;
+}
+
+/* Landing page contact styles */
+
+.contact-div{
+    background-color: purple;
+    color: white;
+    width: 80vw;
+    height: 30vh;
+}
