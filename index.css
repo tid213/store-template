@@ -1,3 +1,7 @@
+body{
+    font-size: 1rem;
+}
+
 /* Nav bar styles */
 
 .nav-bar{
@@ -12,9 +16,16 @@
     text-decoration: none;
     color: black;
     margin: 4px;
+    font-size: 1.25rem;
 }
 .nav-bar img{
     margin: 4px;
+}
+.brand-name-logo{
+    font-family: 'Arizonia', cursive;
+    display: flex;
+    flex-direction: row;
+    font-size: 3rem;
 }
 
 /* Landing page intro styles */
@@ -38,7 +49,7 @@
 
 }
 .main-page-intro h3{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Arizonia', cursive;
     font-size: 10rem;
     margin-left: 40vw;
     margin-top: 0;
@@ -70,11 +81,75 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 3vh;
+    margin-bottom: 3vh;
 }
-.category-div{
+.category-div-shirt{
     width: 10rem;
     height: 10rem;
-    border: 3px solid black;
+    background-color: #fc60a9;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+}
+.category-div-shirt img{
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1vh;
+}
+.category-div-underwear{
+    width: 10rem;
+    height: 10rem;
+    background-color: #ceeb97;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+}
+.category-div-underwear img{
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1vh;
+}
+.category-div-accessories{
+    width: 10rem;
+    height: 10rem;
+    background-color: #f4b393;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+}
+.category-div-accessories img{
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1vh;
+}
+.category-div-all{
+    width: 10rem;
+    height: 10rem;
+    background-color: #7a28cb;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+}
+.category-div-all img{
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1vh;
 }
 
 /* Landing page contact styles */
