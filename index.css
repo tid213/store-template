@@ -1,6 +1,15 @@
 body{
     font-size: 1rem;
 }
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
 
 /* Nav bar styles */
 
@@ -78,6 +87,7 @@ body{
     align-items: center;
     justify-content: space-between;
     width: 90vw;
+    height: 10vh;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3vh;
@@ -152,21 +162,47 @@ body{
     margin-top: 1vh;
 }
 
-/* Seasonal div styles */
+/* Page spacer boxes */
 
-.seasonal-div{
+.page-spacer{
+    font-family: 'Bebas Neue', sans-serif;
+  font-size: 10rem;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+.page-spacer-1{
+    height: 2rem;
+    width: 60vw;
+    background-color: #fc60a9;
+}
+.page-spacer-2{
+    height: 2rem;
+    width: 40vw;
+    background-color: #7a28cb;
+    margin-left: auto;
+}
+.page-spacer-3{
+    height: 2rem;
+    width: 60vw;
+    background-color: #ceeb97;
+}
+
+/* New items div styles */
+
+.new-item-div{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.seasonal-header{
+.new-item-header{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 3rem;
     color:#fc60a9;
 }
-.seasonal-images{
+.new-item-images{
     display: flex;
     justify-content: center;
     align-items: center;
