@@ -165,11 +165,10 @@ body{
 /* Page spacer boxes */
 
 .page-spacer{
-    font-family: 'Bebas Neue', sans-serif;
-  font-size: 10rem;
-  color: #fff;
-  text-align: center;
-  animation: glow 1s ease-in-out infinite alternate;
+    background-color: #7a28cb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .page-spacer-1{
     height: 2rem;
