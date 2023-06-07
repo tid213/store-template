@@ -165,7 +165,6 @@ body{
 /* Page spacer boxes */
 
 .page-spacer{
-    background-color: #7a28cb;
     display: flex;
     align-items: center;
     justify-content: center;
