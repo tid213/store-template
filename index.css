@@ -94,12 +94,12 @@ body{
     height: 10vh;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3vh;
+    margin-top: 6vh;
     margin-bottom: 3vh;
 }
 .category-div-shirt{
-    width: 10rem;
-    height: 10rem;
+    width: 13rem;
+    height: 15rem;
     background-color: #fc60a9;
     color: white;
     display: flex;
@@ -107,16 +107,16 @@ body{
     align-items: center;
     border-radius: 15px;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .category-div-shirt img{
-    width: 4rem;
-    height: 4rem;
+    width: 6rem;
+    height: 6rem;
     margin-top: 1vh;
 }
 .category-div-underwear{
-    width: 10rem;
-    height: 10rem;
+    width: 13rem;
+    height: 15rem;
     background-color: #ceeb97;
     color: white;
     display: flex;
@@ -124,16 +124,16 @@ body{
     align-items: center;
     border-radius: 15px;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .category-div-underwear img{
-    width: 4rem;
-    height: 4rem;
+    width: 6rem;
+    height: 6rem;
     margin-top: 1vh;
 }
 .category-div-accessories{
-    width: 10rem;
-    height: 10rem;
+    width: 13rem;
+    height: 15rem;
     background-color: #f4b393;
     color: white;
     display: flex;
@@ -141,16 +141,16 @@ body{
     align-items: center;
     border-radius: 15px;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .category-div-accessories img{
-    width: 4rem;
-    height: 4rem;
+    width: 6rem;
+    height: 6rem;
     margin-top: 1vh;
 }
 .category-div-all{
-    width: 10rem;
-    height: 10rem;
+    width: 13rem;
+    height: 15rem;
     background-color: #7a28cb;
     color: white;
     display: flex;
@@ -158,11 +158,11 @@ body{
     align-items: center;
     border-radius: 15px;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .category-div-all img{
-    width: 4rem;
-    height: 4rem;
+    width: 6rem;
+    height: 6rem;
     margin-top: 1vh;
 }
 
@@ -173,7 +173,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 5vh;
+    margin-top: 8vh;
 }
 .page-spacer-1{
     height: 2rem;
@@ -200,7 +200,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 5vh;
+    margin-top: 8vh;
 }
 .new-item-header{
     font-family: 'Bebas Neue', sans-serif;
@@ -214,7 +214,7 @@ body{
     height: 25vh;
     width: 100%;
 }
-.new-item-button{
+.new-drop-button{
     width: 15rem;
     height: 5rem;
     margin-right: auto;
