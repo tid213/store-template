@@ -64,6 +64,7 @@
     margin-top: 5rem;
     margin-bottom: 5rem;
     background-color: white;
+    border: 2px solid black;
     color: black;
     font-size: 2rem;
     font-family: 'Bebas Neue', sans-serif;
@@ -102,6 +103,7 @@
     width: 13rem;
     height: 15rem;
     background-color: #fc60a9;
+    border: 2px solid black;
     color: white;
     display: flex;
     flex-direction: column;
@@ -109,6 +111,7 @@
     border-radius: 15px;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 3rem;
+    box-shadow: 8px 8px 8px 0px darkgray;
 }
 .category-div-shirt img{
     width: 6rem;
@@ -119,6 +122,7 @@
     width: 13rem;
     height: 15rem;
     background-color: #ceeb97;
+    border: 2px solid black;
     color: white;
     display: flex;
     flex-direction: column;
@@ -126,6 +130,7 @@
     border-radius: 15px;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 3rem;
+    box-shadow: 8px 8px 8px 0px darkgray;
 }
 .category-div-underwear img{
     width: 6rem;
@@ -136,6 +141,7 @@
     width: 13rem;
     height: 15rem;
     background-color: #f4b393;
+    border: 2px solid black;
     color: white;
     display: flex;
     flex-direction: column;
@@ -143,6 +149,7 @@
     border-radius: 15px;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 3rem;
+    box-shadow: 8px 8px 8px 0px darkgray;
 }
 .category-div-accessories img{
     width: 6rem;
@@ -153,6 +160,7 @@
     width: 13rem;
     height: 15rem;
     background-color: #7a28cb;
+    border: 2px solid black;
     color: white;
     display: flex;
     flex-direction: column;
@@ -160,6 +168,7 @@
     border-radius: 15px;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 3rem;
+    box-shadow: 8px 8px 8px 0px darkgray;
 }
 .category-div-all img{
     width: 6rem;
