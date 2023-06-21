@@ -372,11 +372,30 @@ button{
 /* Shop Pages Styles*/
 
 .shop-page-layout{
-    height: 70vh;
+    height: auto;
 }
 .shop-page-header{
     font-size: 2rem;
     font-family: 'Bebas Neue', sans-serif;
     color: #7a28cb;
     text-align: center;
+}
+.product-divs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-div{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.product-div img{
+    padding: 2  rem;
 }
