@@ -332,6 +332,7 @@ button{
     height: 5px;
     background-color: #7a28cb;
     margin-bottom: 3rem;
+    margin-top: 5rem;
 }
 
 .site-map{
@@ -392,10 +393,27 @@ button{
 .product-div{
     margin-left: auto;
     margin-right: auto;
-    background-color: lightgray;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    height: 25vh;
+    width: 43vw;
+    border: 2px solid #D8BFD8;
+    
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px 0px #D8BFD8;
 }
 .product-div img{
-    padding: 2  rem;
+    padding: 2rem;
+}
+.product-description{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-bottom: 2rem;
+
+}
+.pantie-img img{
+    max-width: 40vw;
+    max-height: 20vh;
+    padding: 2rem;
 }
