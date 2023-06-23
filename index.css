@@ -391,6 +391,10 @@ button{
     margin-right: auto;
 }
 .product-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
@@ -398,7 +402,6 @@ button{
     height: 25vh;
     width: 43vw;
     border: 2px solid #D8BFD8;
-    
     border-radius: 20px;
     box-shadow: 8px 8px 8px 0px #D8BFD8;
 }
@@ -406,10 +409,13 @@ button{
     padding: 2rem;
 }
 .product-description{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 2rem;
     font-family: 'Bebas Neue', sans-serif;
     margin-bottom: 2rem;
+    margin-top: auto;
 
 }
 .pantie-img img, .accessory-img img{
