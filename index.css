@@ -412,7 +412,7 @@ button{
     margin-bottom: 2rem;
 
 }
-.pantie-img img{
+.pantie-img img, .accessory-img img{
     max-width: 40vw;
     max-height: 20vh;
     padding: 2rem;
